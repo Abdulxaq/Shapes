@@ -1,5 +1,6 @@
 var shape = 0;
 var color = 0;
+var items = 100;
 document.getElementById('page2').style.display = 'none';
 document.getElementById('page3').style.display = 'none';
 // (bg.html) berilgan shakildagi div larni generatsiya qilib style bilan chiqarin beradi
@@ -9,7 +10,10 @@ function generate(){
         d = document.querySelector('span');
         d.parentNode.removeChild(d);
     }
-    for (let i = 0; i < 100; i++) {
+    if (window.innerWidth < 500) {
+        items = 200
+    }
+    for (let i = 0; i < items; i++) {
         var element = document.createElement('div');
         var span = document.createElement('span');
         span.appendChild(element);
