@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    motion: 0;
+}
+
+/* --------------------------------------------     shakllar   ----------------------------------*/
+
+:root{
+    --width1: 180px;
+    --width2: 100px;
+}
+body{
+    padding: 15px;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(63, 63, 63);
+    flex-direction: column;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.shakllar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-height: 500px;
+    max-width: 700px;
+    height: 100%;
+    width: 100%;
+}
+.shakl1{
+    width: var(--width1);
+    height:var(--width1);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 98% 85%, 25% 100%, 0 64%);
+    background: rgb(166, 255, 0);
+}
+.shakl2{
+    width: var(--width1);
+    height: var(--width1);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background: rgb(0, 132, 255);
+}
+.shakl3{
+    width: var(--width1);
+    height: var(--width1);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background: rgb(216, 8, 8);
+}
+.shakl4{
+    width: var(--width1);
+    height: var(--width1);
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    background: rgb(160, 6, 207);
+}
+.shakl5{
+    width: var(--width1);
+    height: var(--width1);
+    clip-path: circle(50% at 50% 50%);
+    background: rgb(4, 235, 92);
+}
+.shakl6{
+    width: var(--width1);
+    height: var(--width1);
+    clip-path: polygon(50% 0%, 63% 30%, 100% 25%, 68% 57%, 100% 86%, 50% 73%, 18% 100%, 32% 57%, 0 24%, 39% 35%);
+    background: rgb(0, 255, 255);
+}
+.tauch{
+    margin: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.tauch:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.color1{
+    transition: 1s;
+    background:  rgba(166, 255, 0, 0.5);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.color2{
+    transition: 1s;
+    background:  rgba(0, 132, 255, 0.5);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.color3{
+    transition: 1s;
+    background:  rgba(216, 8, 8, 0.5);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.color4{
+    transition: 1s;
+    background:  rgba(160, 6, 207, 0.5);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.color5{
+    transition: 1s;
+    background:  rgba(4, 235, 93, 0.5);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.color6{
+    transition: 1s;
+    background:  rgba(27, 87, 87, 0.5);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+
+
+
+
+
+/* --------------------------------------------     ranglar   ----------------------------------*/
+
+
+
+
+
+
+
+
+.ranglar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+    max-width: 700px;
+    width: 100%;
+}
+h1{
+    font-family: monospace;
+    font-size: 30px;
+    color: rgb(24, 102, 0);
+    background: orange;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+}
+.rang{
+    width: var(--width2);
+    height: var(--width2);
+    margin: 7px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.rang:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+
+
+
+/* --------------------------------------------     natija   ----------------------------------*/
+
+
+
+
+
+
+
+
+button{
+    padding: 5px 15px;
+    background: brown;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.shadow{
+    z-index: -1;
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+    -webkit-filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+}
+.block{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
